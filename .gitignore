@@ -1,22 +1,42 @@
 ```
-# Project-specific
-ARC-AGI/
-
 # Dependencies
 node_modules/
-.venv/
 venv/
+.venv/
 __pycache__/
 .mypy_cache/
 .pytest_cache/
 .julia/
-zig*/
-target/
-.gradle/
+.zig/
 
 # Build artifacts
 dist/
 build/
+target/
+.coverage
+coverage/
+htmlcov/
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Compiled files
 *.pyc
 *.class
 *.o
@@ -26,28 +46,6 @@ build/
 *.a
 *.obj
 *.out
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# System
-.DS_Store
-Thumbs.db
-
-# Logs and coverage
-*.log
-*.tmp
-coverage/
-htmlcov/
-.coverage
 
 # Compressed files
 *.zip
